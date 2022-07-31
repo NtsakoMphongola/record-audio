@@ -105,6 +105,7 @@ const styles = StyleSheet.create({
   sendVerification: {
     padding: 20, 
     paddingBottom: 15,
+    marign: 5,
     borderBottomWidth: 5,
     borderRadius: 15,
     backgroundColor: '#bb9915',
