@@ -4,7 +4,6 @@ import {FirebaseRecaptchaVerifierModal} from 'expo-firebase-recaptcha';
 import  {firebaseConfig} from './config.js'; 
 import firebase  from 'firebase/compat/app';
 
-
 const LoginPage = ({ navigation }) => {
   const [phoneNumber, setPhoneNumber] =useState('');
   const [code, setCode] = useState('');
