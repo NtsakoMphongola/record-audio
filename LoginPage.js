@@ -37,7 +37,7 @@ const LoginPage = ({ navigation }) => {
       alert('Please Enter Verification Code');
       return;
     } else {
-      alert('Welcome');
+      alert('You are Welcome to Journal Audio Record');
     navigation.navigate('HomePage');
     }
   }
